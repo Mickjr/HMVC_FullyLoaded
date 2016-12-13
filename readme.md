@@ -1,5 +1,5 @@
 ###################
-HMVC - Fully Loaded
+<h1> HMVC - Fully Loaded </h1>
 ###################
 
 <pre> CodeIgniter is an Application Development Framework - a toolkit - for people
