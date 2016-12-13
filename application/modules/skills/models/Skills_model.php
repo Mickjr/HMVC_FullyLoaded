@@ -13,6 +13,7 @@ class Skills_model extends CI_Model {
     {
         parent::__construct();
         $this->load->database();
+        header('Access-Control-Allow-Origin: *');
     }
 
     private function _get_datatables_query()
