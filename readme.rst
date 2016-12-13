@@ -1,25 +1,32 @@
 ###################
-What is CodeIgniter
+HMVC - Fully Loaded
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
+<pre> CodeIgniter is an Application Development Framework - a toolkit - for people
 who build web sites using PHP. Its goal is to enable you to develop projects
 much faster than you could if you were writing code from scratch, by providing
 a rich set of libraries for commonly needed tasks, as well as a simple
 interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
+you creatively focus on your project by minimizing the amount of code needed </pre>
 for a given task.
 
 *******************
-Release Information
+Removed Index
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+If we need a clean url in codeigniter. we need to remove index.php from url in codeigniter. 
+Default you will get index.php in url in codeigniter cause index.php file included with url in codeigniter. 
+so url looks like :-
+
+http://example.com/index.php/controller/function
+
+codeigniter provide easy way for url rewrite functionality to get clean url or remove index.php from url in codeigniter. 
+we can easily done by using .htaccess some of config file changes. 
+after remove index.php from url you will see controller name in url like “http://example.com/controller”.
+We need to remove index.php from url so we can get clean url for our codeigniter site and url not looks odd or to get a user friendly or seo friendly url.
 
 **************************
-Changelog and New Features
+HMVC Folders
 **************************
 
 You can find a list of all changes for each release in the `user
