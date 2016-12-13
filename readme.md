@@ -2,7 +2,7 @@
 <h1> HMVC - Fully Loaded </h1>
 ###################
 
-<pre> CodeIgniter is an Application Development Framework - a toolkit - for people
+<pre>CodeIgniter is an Application Development Framework - a toolkit - for people
 who build web sites using PHP. Its goal is to enable you to develop projects
 much faster than you could if you were writing code from scratch, by providing
 a rich set of libraries for commonly needed tasks, as well as a simple
@@ -14,7 +14,7 @@ for a given task. </pre>
 <h2> Removed Index </h2>
 ###################
 
-<pre> If we need a clean url in codeigniter. we need to remove index.php from url in codeigniter. 
+<pre>If we need a clean url in codeigniter. we need to remove index.php from url in codeigniter. 
 Default you will get index.php in url in codeigniter cause index.php file included with url in codeigniter. 
 so url looks like :-
 
@@ -29,7 +29,7 @@ We need to remove index.php from url so we can get clean url for our codeigniter
 <h2> HMVC Structure </h2>
 ###################
 
-<pre> The main controller doesn’t need to know about it, and is totally isolated from it. In CI we can’t call more than 1 controller per request. 
+<pre>The main controller doesn’t need to know about it, and is totally isolated from it. In CI we can’t call more than 1 controller per request. 
 Therefore, to achieve HMVC, we have to simulate controllers. It can be done with libraries, or with this “Modular Extensions HMVC” contribution.
 
 The differences between using a library and a “Modular HMVC” HMVC class is:
