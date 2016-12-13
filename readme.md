@@ -39,7 +39,7 @@ HMVC classes are stored in a modules directory as opposed to the libraries direc
 
 
 ###################
-Public Folder
+<h2> Public Folder </h2>
 ###################
 
 <pre>A better way to organise your folders would be:
