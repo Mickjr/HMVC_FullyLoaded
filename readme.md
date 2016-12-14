@@ -25,9 +25,9 @@ http://example.com/index.php/controller/function
 <pre>codeigniter provide easy way for url rewrite functionality to get clean url or remove
 index.php from url in codeigniter.
 we can easily done by using .htaccess some of config file changes.
-after remove index.php from url you will see controller name in url like
+after remove index.php from url you will see controller name in url like</pre>
 “http://example.com/controller”.
-We need to remove index.php from url so we can get clean url for our codeigniter site
+<pre>We need to remove index.php from url so we can get clean url for our codeigniter site
 and url not looks odd or to get a user friendly or seo friendly url.</pre>
 
 ###################
