@@ -18,11 +18,11 @@ for a given task. </pre>
 codeigniter.
 Default you will get index.php in url in codeigniter cause index.php file included with
 url in codeigniter.
-so url looks like :-
+so url looks like :-</pre>
 
 http://example.com/index.php/controller/function
 
-codeigniter provide easy way for url rewrite functionality to get clean url or remove
+<pre>codeigniter provide easy way for url rewrite functionality to get clean url or remove
 index.php from url in codeigniter.
 we can easily done by using .htaccess some of config file changes.
 after remove index.php from url you will see controller name in url like
