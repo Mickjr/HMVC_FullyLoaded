@@ -44,7 +44,7 @@ HMVC classes are stored in a modules directory as opposed to the libraries direc
 
 <pre>A better way to organise your folders would be:
 
-    root
+
         HMVC_FullyLoaded
             application_folder
                 config
