@@ -18,7 +18,7 @@ for a given task. </pre>
 codeigniter.
 Default you will get index.php in url in codeigniter cause index.php file included with
 url in codeigniter.
-so url looks like :-</pre>
+so url looks like :</pre>
 
 http://example.com/index.php/controller/function
 
