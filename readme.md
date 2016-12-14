@@ -57,7 +57,7 @@ configuration changes or doesn’t abide by the .htaccess.</pre>
 
 <br>
 
-A better way to organise your folders would be:
+<pre>A better way to organise your folders would be:
 
 
         HMVC_FullyLoaded
@@ -78,6 +78,4 @@ A better way to organise your folders would be:
                     js
                     images index.php .htaccess
         ...
-        ...
-
-          </pre>
+        ...</pre>
