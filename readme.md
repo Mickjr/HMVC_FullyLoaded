@@ -42,6 +42,10 @@ HMVC classes are stored in a modules directory as opposed to the libraries direc
 <h2> Public Folder </h2>
 ###################
 
+<pre>For the best security, both the system and any application folders should be placed above web root so that they are not directly accessible via a browser. By default, .htaccess files are included in each folder to help prevent direct access, but it is best to remove them from public access entirely in case the web server configuration changes or doesn’t abide by the .htaccess.</pre>
+
+<br>
+
 <pre>A better way to organise your folders would be:
 
 
