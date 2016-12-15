@@ -14,14 +14,19 @@ for a given task. </pre>
 <h2> Removed Index </h2>
 ###################
 
-<pre>index.php is no longer in the root of the project! It has been moved inside the public folder, for better security and separation of components.
+<pre>index.php is no longer in the root of the project! It has been moved inside 
+the public folder, for better security and separation of components.
 
-This means that you should configure your web server to "point" to your project's public folder, and not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter public/..., as the rest of your logic and the framework are exposed.</pre>
+This means that you should configure your web server to "point" to your project's 
+public folder, and not to the project root. A better practice would be to configure 
+a virtual host to point there. A poor practice would be to point your web server to 
+the project root and expect to enter public/..., as the rest of your logic and the 
+framework are exposed.</pre>
 
 http://example.com/index.php/controller/function
 
-<pre>codeigniter provide easy way for url rewrite functionality to get clean url or remove
-index.php from url in codeigniter.
+<pre>codeigniter provide easy way for url rewrite functionality to get clean url 
+or remove index.php from url in codeigniter.
 we can easily done by using .htaccess some of config file changes.
 after remove index.php from url you will see controller name in url like</pre>
 http://example.com/controller
