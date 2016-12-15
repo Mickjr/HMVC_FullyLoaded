@@ -14,11 +14,9 @@ for a given task. </pre>
 <h2> Removed Index </h2>
 ###################
 
-<pre>If we need a clean url in codeigniter. we need to remove index.php from url in
-codeigniter.
-Default you will get index.php in url in codeigniter cause index.php file included with
-url in codeigniter.
-so url looks like :</pre>
+<pre>index.php is no longer in the root of the project! It has been moved inside the public folder, for better security and separation of components.
+
+This means that you should configure your web server to "point" to your project's public folder, and not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter public/..., as the rest of your logic and the framework are exposed.</pre>
 
 http://example.com/index.php/controller/function
 
